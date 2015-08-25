@@ -19,3 +19,12 @@ Call the tool and pass appropriate arguments. The tool will work by passing keys
                 (Requires -n -k and -v accompany this.)
     -v Value    The actual value you are saving to the preference key.
                 (Requires -n -k and -y accompany this.)
+
+
+####Examples:####
+
+Plist example:<br>
+    `MSOffice2016PrefTool.sh -p "/private/tmp/com.microsoft.office_2016_defaults.plist"`
+
+Keys and Values example:<br>
+    `MSOffice2016PrefTool.sh -n "Software/Microsoft/Office/Common/UserInfo" -k "UserName" -t 1 -v "${USER}"`

@@ -4,9 +4,9 @@ bash script for manipulating MS Office 2016 preference stored in sqlite3 databas
 
 Call the tool and pass appropriate arguments. The tool will work by passing keys and values, or a proprly formatted plist containng multiple preference keys and values.
 
-Usage: MSOffice2016PrefTool.sh [-hp:n:k:t:v:] [-p Plist] [-n RegNode]...
-You can either pass a properly formatted plist with a bunch of preference keys, or pass
-individual keys and values to the tool.
+    Usage: MSOffice2016PrefTool.sh [-hp:n:k:t:v:] [-p Plist] [-n RegNode]...
+    You can either pass a properly formatted plist with a bunch of preference keys, or pass
+    individual keys and values to the tool.
 
     -h          Display this help and exit
     -p Plist    Read settings from a properly formatted plist file instead of standard
